@@ -1,0 +1,40 @@
+{
+  "name": "@pepeeja/eslint-config-angular",
+  "version": "15.0.2",
+  "private": false,
+  "main": "index.js",
+  "author": "Vladislav Shukelait",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "angular"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "release": "npm publish --tag next"
+  },
+  "dependencies": {
+    "@angular-eslint/eslint-plugin": "15.2.1",
+    "@angular-eslint/eslint-plugin-template": "15.2.1",
+    "@angular-eslint/template-parser": "15.2.1",
+    "@typescript-eslint/eslint-plugin": "5.56.0",
+    "@typescript-eslint/parser": "5.56.0",
+    "eslint": "8.36.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-import-resolver-typescript": "3.5.3",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-rxjs": "5.0.2",
+    "prettier": "2.8.6"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  }
+}
