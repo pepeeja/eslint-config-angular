@@ -1,6 +1,6 @@
 {
   "name": "@pepeeja/eslint-config-angular",
-  "version": "15.0.2",
+  "version": "16.0.0",
   "private": false,
   "main": "index.js",
   "author": "Vladislav Shukelait",
@@ -21,21 +21,18 @@
     "release": "npm publish --tag next"
   },
   "dependencies": {
-    "@angular-eslint/eslint-plugin": "15.2.1",
-    "@angular-eslint/eslint-plugin-template": "15.2.1",
-    "@angular-eslint/template-parser": "15.2.1",
-    "@typescript-eslint/eslint-plugin": "5.56.0",
-    "@typescript-eslint/parser": "5.56.0",
-    "eslint": "8.36.0",
+    "@angular-eslint/eslint-plugin": "16.1.0",
+    "@angular-eslint/eslint-plugin-template": "16.1.0",
+    "@angular-eslint/template-parser": "16.1.0",
+    "@typescript-eslint/eslint-plugin": "6.0.0",
+    "@typescript-eslint/parser": "6.0.0",
+    "eslint": "8.44.0",
     "eslint-config-prettier": "8.8.0",
-    "eslint-import-resolver-typescript": "3.5.3",
+    "eslint-import-resolver-typescript": "3.5.5",
     "eslint-plugin-import": "2.27.5",
-    "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-rxjs": "5.0.2",
-    "prettier": "2.8.6"
-  },
-  "devDependencies": {
-    "typescript": "4.9.4"
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-rxjs": "5.0.3",
+    "prettier": "3.0.0"
   },
   "publishConfig": {
     "access": "public"
